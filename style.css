@@ -515,6 +515,7 @@ h6{
         .profile{
             background: whitesmoke;
             /* padding: 30px; */
+            margin-bottom: 50px;
             h6{
                 text-transform: capitalize;
             }
@@ -522,7 +523,8 @@ h6{
                 text-transform: uppercase;
             }
             .E{
-                width: 25vw;
+                width: 65vw;
+                height: auto;
             }
 
             .pro-link{
