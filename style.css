@@ -2929,7 +2929,7 @@ footer{
                 flex-wrap: wrap;
                 justify-content: center;
                 align-items: center;
-                margin-bottom: 20px;
+                margin-bottom: 25px;
             }
             
         }
@@ -3139,9 +3139,6 @@ footer{
     /* course inner */
 
     #course-inner{
-        /* display: flex;
-        justify-content: space-between;
-        align-items: flex-start; */
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         padding: 4vw;
@@ -3156,7 +3153,6 @@ footer{
             height: 78vh;
             width: 75%;
             border-radius: 30px;
-            /* padding: 20px; */
             z-index: -999;
             p{
                 cursor: pointer;
@@ -3202,7 +3198,7 @@ footer{
                 font-size: 30px;
                 font-weight: 400;
                 text-transform: capitalize;
-                margin: 20px 0 10px 0;
+                margin: 30px 0 10px 0;
             }
     
             .tutor{
@@ -3247,7 +3243,7 @@ footer{
                 justify-content: center;
     
                 span{
-                    margin-top: 36px;
+                    /* margin-top: 36px; */
                     font-weight: 700;
                     font-size: 25px;
                     background: #532392;
@@ -3255,6 +3251,7 @@ footer{
                     border-radius: 10px;
                     padding: 10px 30px;
                     cursor: pointer;
+                    margin-bottom: 90px;
                 }
     
                 .c-name{
